@@ -10,7 +10,7 @@ public class ErrorReponse {
         this.errorMessage = errorMessage;
         this.timeStamp = timeStamp;
     }
-
+    public ErrorReponse(){}
     public int getHttpStatus() {
         return httpStatus;
     }
